@@ -24,7 +24,7 @@ http://localhost:3000/users/signin
 Um Username válido e senha devem ser informados, com alguns requisitos, username deve ter mais de 3 dígitos e senha ao menos 1 número e 1 letra maiúscula com mais de 8 dígitos
 A senha é colocada no banco hasheada
 
-Token JWT e Login com balance atual:
+Token JWT e Login:
 
 No endpoint http://localhost:3000/auth/login a partir do username e senha informado corretamente, um token jwt com validade de 30 minutos é gerado:
 {
