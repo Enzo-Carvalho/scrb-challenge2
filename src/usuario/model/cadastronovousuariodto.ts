@@ -18,5 +18,10 @@ export class CadastroNovoUsuarioDTO{
     @MaxLength(500)
     @MinLength(15)
     email: string
-    
+
+    @IsNotEmpty()
+    @MaxLength(11)
+    @MinLength(11)
+    telefone: number
+
 }

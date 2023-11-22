@@ -23,11 +23,19 @@ export class Users{
     @Column({nullable: false, length: 255})
     senha: string
 
+    @ApiProperty()
     @IsNotEmpty()
     @MaxLength(500)
     @MinLength(8)
     @Column({nullable: false, length: 500})
     email: string
+
+    @ApiProperty()
+    @IsNotEmpty()
+    @MaxLength(11)
+    @MinLength(11)
+    @Column({nullable: false, length: 11})
+    telefone: number
 
     @CreateDateColumn({ name: 'data_criacao' })
     createdAt: Date;
