@@ -8,7 +8,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
   .setTitle('Escribo - desafio tecnico 2')
   .setDescription('API - Desafio Backend')
-  .setContact('Enzo Candido Carvalho', 'https://www.linkedin.com/in/enzo-candido-carvalho/', 'enzo.carvalho1290@gmail.com')
+  .setContact('Enzo Candido Carvalho', 'https://www.linkedin.com/in/enzo-candido-carvalho/', 'enzo.carvalho10000@gmail.com')
   .setVersion('1.0')
   .build()
 
