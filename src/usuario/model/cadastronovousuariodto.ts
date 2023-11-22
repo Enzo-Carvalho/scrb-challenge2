@@ -1,4 +1,4 @@
-import { IsNotEmpty, MaxLength, MinLength } from "class-validator";
+import { IsNotEmpty, MaxLength, MinLength} from "class-validator";
 
 export class CadastroNovoUsuarioDTO{
 
@@ -13,4 +13,10 @@ export class CadastroNovoUsuarioDTO{
     @MaxLength(255)
     @MinLength(8)
     senha: string
+
+    @IsNotEmpty()
+    @MaxLength(500)
+    @MinLength(15)
+    email: string
+    
 }
