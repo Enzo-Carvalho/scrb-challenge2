@@ -38,8 +38,9 @@ export class UserService {
 
                 let novoUsuario = new Users()
                 novoUsuario.username = user.username
-                novoUsuario.email = user.email
                 novoUsuario.senha = hash
+                novoUsuario.email = user.email
+                novoUsuario.telefone = user.telefone
 
                 return this.usersRepository.save(novoUsuario)
             }
