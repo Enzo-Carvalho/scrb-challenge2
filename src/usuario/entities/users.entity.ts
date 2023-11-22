@@ -25,6 +25,7 @@ export class Users{
 
     @IsNotEmpty()
     @MaxLength(500)
+    @MinLength(8)
     @Column({nullable: false, length: 500})
     email: string
 
