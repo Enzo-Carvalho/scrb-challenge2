@@ -8,8 +8,6 @@ npm run start:dev para rodar na porta http://localhost:3000
 
 Documentação da API em: http://localhost:3000/swagger
 
-Formas de utilizar / Requisitos do Desafio
-
 Regras de Negócio
 
 Cadastro:
