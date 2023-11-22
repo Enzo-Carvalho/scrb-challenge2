@@ -25,6 +25,10 @@ import { AuthModule } from './auth/auth.modules';
       url: process.env.DATABASE_URL,
       logging: false,
       dropSchema: false,
+      ssl: {
+        rejectUnauthorized: false, 
+      },
+      synchronize: true,
       autoLoadEntities: true
     }), 
     UsersModule,
