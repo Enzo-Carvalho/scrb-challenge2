@@ -29,12 +29,12 @@ export class Users{
     @Column({nullable: false, length: 500})
     email: string
 
-    @CreateDateColumn({ name: 'created_at' })
+    @CreateDateColumn({ name: 'data_criacao' })
     createdAt: Date;
 
-    @UpdateDateColumn({ name: 'updated_at' })
+    @UpdateDateColumn({ name: 'data_atualizacao' })
     updatedAt: Date;
 
-    @Column({ name: 'last_login', nullable: true })
+    @Column({ name: 'ultimo_login', nullable: true })
     lastLogin: Date;
 }
