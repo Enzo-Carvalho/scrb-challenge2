@@ -1,7 +1,7 @@
 # SCRB-TECH-CHALLENGE
 API em NodeJS / NestJs
 
-Sobre: API Desenvolvida em NodeJs utilizando o framework Nestjs com a linguagem de programação TypeScrpit, aplicação esta hospedada na clound Rneder no endereço https://scrb-tech-challenge.onrender.com/swagger
+Sobre: API Desenvolvida em NodeJs utilizando o framework Nestjs com a linguagem de programação TypeScrpit, aplicação esta hospedada na clound Render no endereço https://scrb-tech-challenge.onrender.com/swagger
 
 Formas de rodar: 
 npm run start:dev para rodar na porta http://localhost:3000
