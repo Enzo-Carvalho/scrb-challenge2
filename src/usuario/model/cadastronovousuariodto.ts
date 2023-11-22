@@ -22,6 +22,6 @@ export class CadastroNovoUsuarioDTO{
     @IsNotEmpty()
     @MaxLength(11)
     @MinLength(11)
-    telefone: number
+    telefone: string
 
 }

@@ -35,7 +35,7 @@ export class Users{
     @MaxLength(11)
     @MinLength(11)
     @Column({nullable: false, length: 11})
-    telefone: number
+    telefone: string
 
     @CreateDateColumn({ name: 'data_criacao' })
     createdAt: Date;
