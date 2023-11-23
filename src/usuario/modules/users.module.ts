@@ -9,7 +9,7 @@ import { jwtConstants } from "src/auth/shared/constants";
 @Module({
     imports:[TypeOrmModule.forFeature([Users]), JwtModule.register({
         secret: jwtConstants.secret,
-        signOptions: {expiresIn: '30min'}
+        signOptions: {expiresIn: '30m'}
       })],
     providers:[UserService],
     controllers:[UsersController],
